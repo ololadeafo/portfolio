@@ -27,6 +27,10 @@
           "class": "devicon-html5-plain colored"
         },
         {
+          "name": "Sass",
+          "class": "devicon-sass-original colored"
+        },
+        {
           "name": "CSS 3",
           "class": "devicon-css3-plain colored"
         },
