@@ -1,7 +1,7 @@
 {
     "basic_info": {
       "description_header": "Hi",
-      "description": "👋 I'm Davina Griss. Fictional person for preview purposes :) I'm working with newest front-end frameworks like Angular, React and Vue. What you are seeing now is portfolio template from Dorota1997. If you like this portfolio template, make sure to ⭐ the repository to make it more recognizable for other users. Thank you 💜",
+      "description": "👋 I'm Ololade Afolabi. I am a Full-Stack Software Engineer based in Houston, Texas. I recently graduated from the 19-week advanced software engineering program at Hack Reactor. During this program, i established a strong foundation in programming languages like Python and JavaScript, as well as frameworks and the best practices followed in the industry. With over four years of experience serving as a Scrum Master and actively guiding Scrum processes while fostering collaboration within cross-functional agile teams, I possess the capability to function adeptly as an engineer. This proficiency is rooted in my comprehension of the significance of proactive communication and efficient time management. As someone who who values continuous improvement in my personal and professional life, I am open to opportunities that entail joining a team where I can utilize my adaptable skill set, broaden my expertise, and engage with dedicated professionals who share a fervor for creating substantial contributions to user-oriented and impactful technological advancements.",
       "section_name": {
         "about": "About me",
         "projects": "Projects",
@@ -11,107 +11,171 @@
     },
     "projects": [
       {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
+        "title": "Travel Threads",
+        "description": "Travel Threads is a user-friendly application, developed by 5 engineers using React, Redux, CSS, and javascript. Travel Threads allows users to create and manage personalized packing lists for trips. Utilized FastAPI framework to construct a resilient backend, managing tasks like user authentication, data storage, and extraction from a PostgreSQL database. Incorporated external API's to obtain precise and current weather data for each day of the trip, thereby enhancing the packing list feature.",
         "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
+          "images/portfolio/Travel-Threads/p1.png"
         ],
-        "url": "",
+        "gitlab": "https://gitlab.com/team124532813/travel-threads",
+        "live": "https://team124532813.gitlab.io/travel-threads/",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-postgresql-plain colored",
+            "name": "PostgreSQL"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
+            "class": "devicon-javascript-plain colored",
+            "name": "Javascript"
           },
           {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      },
-      {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
-        "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
+            "class": "devicon-css3-plain colored",
+            "name": "CSS"
+          },
           {
-            "class": "devicon-react-original",
+            "class": "devicon-react-original colored",
             "name": "React"
           },
           {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
+            "class": "devicon-redux-original colored",
+            "name": "Redux"
+          },
+          {
+            "class": "devicon-fastapi-plain colored",
+            "name": "FastAPI"
+          },
+          {
+            "class": "devicon-docker-plain colored",
+            "name": "Docker"
           }
         ]
       },
       {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
+        "title": "Lolly Motors",
+        "description": "Lolly Motors is a web application for automobile dealerships to manage their sales, services, and inventory. Lolly Motors allows users to create, view, and delete services based on the automobile. Furthermore, it incorporates a VIP status functionality designed for vehicles that have undergone servicing on multiple occasions.",
         "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
+          "images/portfolio/Lolly-Motors/p1.png"
         ],
-        "url": "https://github.com",
+        "gitlab": "https://gitlab.com/lola.afolabi0503/LollyMotors",
+        "live": "",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-javascript-plain colored",
+            "name": "JavaScript"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
+            "class": "devicon-css3-plain colored",
+            "name": "CSS"
           },
           {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-bootstrap-plain colored",
+            "name": "Bootstrap"
+          },
+          {
+            "class": "devicon-postgresql-plain colored",
+            "name": "PostgreSQL"
+          },
+          {
+            "class": "devicon-django-plain colored",
+            "name": "Django"
+          },
+          {
+            "class": "devicon-react-original colored",
+            "name": "React"
+          },
+          {
+            "class": "devicon-docker-plain colored",
+            "name": "Docker"
+          }
+        ]
+      },
+      {
+        "title": "Conference Go",
+        "description": "Conference Go is a single page application that collects and filters user input via forms, establishing communication with API microservices. Conference GO was meticulously crafted to streamline the management of conferences. Speakers have the option to register and outline their presentations, while participants can effortlessly select and register for the conference of their choice. Pertinent weather information is seamlessly integrated through the OpenWeather API.",
+        "images": [
+          "images/portfolio/Conference_Go/Conferencego.jpg"
+        ],
+        "gitlab": "https://gitlab.com/lola.afolabi0503/conference-go",
+        "live": "",
+        "technologies": [
+          {
+            "class": "devicon-css3-plain colored",
+            "name": "CSS"
+          },
+          {
+            "class": "devicon-django-plain colored",
+            "name": "Django"
+          },
+          {
+            "class": "devicon-python-plain colored",
+            "name": "Python"
+          },
+          {
+            "class": "devicon-javascript-plain colored",
+            "name": "Javascript"
+          },
+          {
+            "class": "devicon-bootstrap-plain colored",
+            "name": "Bootstrap"
+          },
+          {
+            "class": "devicon-postgresql-plain colored",
+            "name": "PostgreSQL"
+          },
+          {
+            "class": "devicon-docker-plain colored",
+            "name": "Docker"
+          },
+          {
+            "class": "devicon-html5-plain colored",
+            "name": "HTML"
           }
         ]
       }
     ],
     "experience": [
       {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - present",
+        "company": "Empower Retirement",
+        "title": "Senior Business Systems Analyst/Scrum Master",
+        "years": "2021-2022",
+        "icon": "fas fa-laptop",
         "mainTech": [
-          "Angular 8/9/10"
         ],
         "technologies": [
-          "REST API",
-          "RxJS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
+          "JIRA",
+          "Scrum",
+          "User Stories",
+          "Agile fraeworks",
+          "CI/CD",
+          "MS Excel",
+          "PowerPoint"
         ]
       },
       {
-        "company": "Serros Solutions",
-        "title": "Intern",
-        "years": "01.2018 - 09.2019",
+        "company": "Infosys",
+        "title": "Scrum Master",
+        "years": "Sep 2018 - Jan 2021",
+        "icon": "fab fa-keyboard",
         "mainTech": [
-          "Angular 7/8"
         ],
         "technologies": [
-          "RxJS",
-          "Django",
-          "PHP",
-          "JavaScript",
-          "DHTMLX Gantt"
+          "JIRA",
+          "JIRA Portfolio",
+          "ATDD",
+          "TDD"
+        ]
+      },
+      {
+        "company": "Trilogy Federal",
+        "title": "Scrum Master",
+        "years": "Sep 2016 - Sep 2018",
+        "icon": "fas fa-laptop",
+        "mainTech": [
+        ],
+        "technologies": [
+          "Kanban",
+          "JIRA",
+          "PowerPoint",
+          "MS Excel"
         ]
       }
     ]

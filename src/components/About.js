@@ -1,14 +1,7 @@
 import React, { Component } from "react";
-import { Icon } from "@iconify/react";
-import angularIcon from "@iconify/icons-logos/angular-icon";
-import reactIcon from "@iconify/icons-logos/react";
-import vueIcon from "@iconify/icons-logos/vue";
 
 class About extends Component {
   render() {
-    if (this.props.sharedBasicInfo) {
-      var profilepic = "images/" + this.props.sharedBasicInfo.image;
-    }
     if (this.props.resumeBasicInfo) {
       var sectionName = this.props.resumeBasicInfo.section_name.about;
       var hello = this.props.resumeBasicInfo.description_header;
@@ -23,50 +16,29 @@ class About extends Component {
           </h1>
           <div className="row center mx-auto mb-5">
             <div className="col-md-4 mb-5 center">
-              <div className="polaroid">
                 <span style={{ cursor: "auto" }}>
                   <img
-                    height="250px"
-                    src={profilepic}
+                    height="300px"
+                    width="500px"
+                    src={require("../Images/Software_engineer.gif")}
                     alt="Avatar placeholder"
                   />
-                  <Icon
-                    icon={angularIcon}
-                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
-                  />
-                  <Icon
-                    icon={reactIcon}
-                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
-                  />
-                  <Icon
-                    icon={vueIcon}
-                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
-                  />
                 </span>
-              </div>
             </div>
 
             <div className="col-md-8 center">
               <div className="col-md-10">
                 <div className="card">
                   <div className="card-header">
-                    <span
-                      className="iconify"
-                      data-icon="emojione:red-circle"
-                      data-inline="false"
-                    ></span>{" "}
+                    <span>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 64 64"><path fill="#ec1c24" d="M57.55 14.452c9.697 14.11 6.11 33.405-8 43.1c-14.11 9.697-33.407 6.112-43.1-8c-9.687-14.11-6.111-33.407 8-43.1c14.11-9.697 33.406-6.11 43.1 8"></path></svg></span>{" "}
                     &nbsp;{" "}
-                    <span
-                      className="iconify"
-                      data-icon="twemoji:yellow-circle"
-                      data-inline="false"
-                    ></span>{" "}
+                    <span>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 36 36"><circle cx="18" cy="18" r="18" fill="#FDCB58"></circle></svg></span>{" "}
                     &nbsp;{" "}
-                    <span
-                      className="iconify"
-                      data-icon="twemoji:green-circle"
-                      data-inline="false"
-                    ></span>
+                    <span>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 36 36"><circle cx="18" cy="18" r="18" fill="#78B159"></circle></svg>
+                    </span>
                   </div>
                   <div
                     className="card-body font-trebuchet text-justify ml-3 mr-3"
@@ -76,12 +48,17 @@ class About extends Component {
                       lineHeight: "200%",
                     }}
                   >
-                    <br />
+                     <br />
                     <span className="wave">{hello} :) </span>
                     <br />
                     <br />
                     {about}
                   </div>
+                </div>
+                <div className="text-center mt-5">
+                  <a href={require("../resume/Ololade_Afolabi_Resume.pdf")} download>
+                    <button className="resume-button">Download Resume</button>
+                  </a>
                 </div>
               </div>
             </div>

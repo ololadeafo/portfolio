@@ -1,67 +1,100 @@
 {
     "basic_info": {
-      "name": "Davina Griss",
-      "titles": [ "Front-end Developer", "Senior Data Engineer", "Dev Team lead", "Mobile App Developer" ],
+      "name": " Ololade Afolabi 👩🏽‍💻",
+      "titles": [ "Full Stack Engineer", "Front-end Developer", "Back-end Developer"],
       "social": [
         {
-          "name": "github",
-          "url": "https://github.com",
-          "class": "fab fa-github"
+          "name": "linkedin",
+          "url": "https://www.linkedin.com/in/ololade-afolabi/",
+          "class": "fab fa-linkedin"
         },
         {
-          "name": "instagram",
-          "url": "https://www.instagram.com",
-          "class": "fab fa-instagram"
+          "name": "gitlab",
+          "url": "https://gitlab.com/lola.afolabi0503",
+          "class": "fab fa-gitlab"
+        },
+        {
+          "name": "email",
+          "url": "mailto:lola.afolabi0503@gmail.com",
+          "class": "fas fa-envelope"
         }
-      ],
-      "image": "myProfile.jpg"
+      ]
     },
     "skills": {
-      "icons": [
+      "languages": [
         {
           "name": "HTML 5",
-          "class": "devicon-html5-plain",
-          "level": "95"
+          "class": "devicon-html5-plain colored"
         },
         {
           "name": "CSS 3",
-          "class": "devicon-css3-plain",
-          "level": "95"
+          "class": "devicon-css3-plain colored"
         },
         {
-          "name": "Angular",
-          "class": "devicon-angularjs-plain",
-          "level": "80"
-        },
-        {
-          "name": "TypeScript",
-          "class": "devicon-typescript-plain",
-          "level": "90"
+          "name": "Python",
+          "class": "devicon-python-plain colored"
         },
         {
           "name": "JavaScript",
-          "class": "devicon-javascript-plain",
-          "level": "70"
+          "class": "devicon-javascript-plain colored"
+        }
+      ],
+      "front_end": [
+        {
+          "name": "React",
+          "class": "devicon-react-original colored"
         },
         {
-          "name": "Sass",
-          "class": "devicon-sass-original",
-          "level": "75"
+          "name": "Redux",
+          "class": "devicon-redux-original colored"
+        },
+        {
+          "name": "Tailwind",
+          "class": "devicon-tailwindcss-plain colored"
         },
         {
           "name": "Bootstrap",
-          "class": "devicon-bootstrap-plain",
-          "level": "85"
-        },
+          "class": "devicon-bootstrap-plain colored"
+        }
+      ],
+      "back_end": [
         {
-          "name": "C#",
-          "class": "devicon-csharp-plain",
-          "level": "65"
+          "name": "Django",
+          "class": "devicon-django-plain colored"
         },
         {
           "name": "MySql",
-          "class": "devicon-mysql-plain",
-          "level": "60"
+          "class": "devicon-mysql-plain colored"
+        },
+        {
+          "name": "SQLite3",
+          "class": "devicon-sqlite-plain colored"
+        },
+        {
+          "name": "PostgreSQL",
+          "class": "devicon-postgresql-plain colored"
+        },
+        {
+          "name": "MongoDB",
+          "class": "devicon-mongodb-plain colored"
+        },
+        {
+          "name": "FastAPI",
+          "class": "devicon-fastapi-plain colored"
+        }
+      ],
+      "tools": [
+        {
+          "name": "Git",
+          "class": "devicon-git-plain colored"
+        },
+        {
+          "name": "Docker",
+          "class": "devicon-docker-plain colored"
+        },
+        {
+          "name": "VS Code",
+          "class": "devicon-visualstudio-plain colored"
         }
       ]
     }

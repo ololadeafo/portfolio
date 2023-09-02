@@ -1,6 +1,6 @@
 body[data-theme="dark"] {  
 
-   @import '../src/scss/dark-slider.scss';
+   @import "/src/scss/dark-slider.scss";
 
    .slider-tab {
       background-color: #8C8C8C;
@@ -39,6 +39,22 @@ body[data-theme="dark"] {
       }
    }
 
+   .resume-button {
+      background-color: #6d6d6d;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 15px;
+      transition: background-color 0.2s ease-in-out;
+      font: 15px/25px "Open Sans", sans-serif;
+   }
+
+   .resume-button:hover {
+      background-color: #8c8c8c;
+   }
+
    #about {
       background-color: #7f7f7f;
       h1 span {
@@ -64,6 +80,10 @@ body[data-theme="dark"] {
       .project-title-settings {
          color: white;
       }
+   }
+
+   .project-title-settings1 {
+      color: white;
    }
 
    #resume {
@@ -96,12 +116,69 @@ body[data-theme="dark"] {
       }
    }
 
+   .link-button {
+      background-color: #6d6d6d;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 15px;
+      transition: background-color 0.2s ease-in-out;
+      font: 25px/px "polaroid", sans-serif;
+   }
+
+   .link-button:hover {
+      background-color: #8c8c8c;
+   }
+
    .modal-inside .modal-content {
       background: #5b5b5b;
       color: white;
    }
 
    .close-icon {
+      color: white;
+   }
+
+   #skills {
+      background-color: #7f7f7f;
+      .section-title {
+         color: white !important;
+      }
+   }
+
+   .skills-tile {
+      background-color: #767676;
+      padding: 10px 10px 5px 10px;
+      width: 100px;
+      margin: 5px 0 5px 0;
+      border-radius: 8px;
+   }
+
+   .skills-icon {
+      font-size: 180%;
+      color: #d2d2d2;
+      text-align: center;
+      position: relative;
+   }
+
+   footer {
+      background: #7f7f7f;
+      min-height: 100px;
+      width: 100%;
+      overflow: hidden;
+      font-size: 14px;
+      color: white;
+      position: relative;
+      text-align: center;
+   }
+
+   .navbar {
+      background-color: #CCCCCC;
+   }
+
+   h2 {
       color: white;
    }
 }

@@ -30,15 +30,13 @@ class Projects extends Component {
                 <div>
                   <img
                     src={projects.images[0]}
+                    className="project-image mx-auto mt-5"
                     alt="projectImages"
                     height="230"
                     style={{marginBottom: 0, paddingBottom: 0, position: 'relative'}}
                   />
-                  <span className="project-date">{projects.startDate}</span>
                   <br />
-                  <p className="project-title-settings mt-3">
-                    {projects.title}
-                  </p>
+                  <p className="project-title-settings">{projects.title}</p>
                 </div>
               </div>
             </span>
