@@ -19,7 +19,6 @@ class About extends Component {
                 <span style={{ cursor: "auto" }}>
                   <img
                     height="300px"
-                    width="500px"
                     src={require("../Images/Software_engineer.gif")}
                     alt="Avatar placeholder"
                   />

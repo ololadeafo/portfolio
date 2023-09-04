@@ -92,7 +92,7 @@
         "title": "Conference Go",
         "description": "Conference Go is a single page application that collects and filters user input via forms, establishing communication with API microservices. Conference GO was meticulously crafted to streamline the management of conferences. Speakers have the option to register and outline their presentations, while participants can effortlessly select and register for the conference of their choice. Pertinent weather information is seamlessly integrated through the OpenWeather API.",
         "images": [
-          "images/portfolio/Conference_Go/Conferencego.jpg"
+          "images/portfolio/Conference_Go/Conferencego.png"
         ],
         "gitlab": "https://gitlab.com/lola.afolabi0503/conference-go",
         "live": "",
