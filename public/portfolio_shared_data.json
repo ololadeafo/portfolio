@@ -41,6 +41,10 @@
         {
           "name": "JavaScript",
           "class": "devicon-javascript-plain colored"
+        },
+        {
+          "name": "Typescript",
+          "class": "devicon-typescript-plain colored"
         }
       ],
       "front_end": [
@@ -60,6 +64,10 @@
           "name": "Bootstrap",
           "class": "devicon-bootstrap-plain colored"
         }
+        {
+          "name": "ReactRouter",
+          "class": "devicon-reactrouter-plain colored"
+        },
       ],
       "back_end": [
         {
@@ -85,6 +93,10 @@
         {
           "name": "FastAPI",
           "class": "devicon-fastapi-plain colored"
+        },
+        {
+          "name": "NestJs",
+          "class": "devicon-nestjs-original colored"
         }
       ],
       "tools": [
@@ -99,6 +111,10 @@
         {
           "name": "VS Code",
           "class": "devicon-visualstudio-plain colored"
+        },
+        {
+          "name": "Postman",
+          "class": "devicon-postman-plain colored"
         }
       ]
     }
