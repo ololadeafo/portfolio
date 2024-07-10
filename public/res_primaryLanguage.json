@@ -134,48 +134,46 @@
     ],
     "experience": [
       {
-        "company": "Empower Retirement",
-        "title": "Senior Business Systems Analyst/Scrum Master",
-        "years": "2021-2022",
-        "icon": "fas fa-laptop",
-        "mainTech": [
-        ],
-        "technologies": [
-          "JIRA",
-          "Scrum",
-          "User Stories",
-          "Agile fraeworks",
-          "CI/CD",
-          "MS Excel",
-          "PowerPoint"
-        ]
-      },
-      {
-        "company": "Infosys",
-        "title": "Scrum Master",
-        "years": "Sep 2018 - Jan 2021",
+        "company": "Invesco",
+        "title": "Software Engineer",
+        "years": "2022 - Present",
         "icon": "fab fa-keyboard",
         "mainTech": [
         ],
         "technologies": [
           "JIRA",
-          "JIRA Portfolio",
-          "ATDD",
-          "TDD"
+          "Git",
+          "Jenkins",
+          "RESTful APIs"
         ]
       },
       {
-        "company": "Trilogy Federal",
-        "title": "Scrum Master",
-        "years": "Sep 2016 - Sep 2018",
+        "company": "Empower Retirement",
+        "title": "Cloud Engineer",
+        "years": "2021-2022",
         "icon": "fas fa-laptop",
         "mainTech": [
         ],
         "technologies": [
-          "Kanban",
-          "JIRA",
-          "PowerPoint",
-          "MS Excel"
+          "Ansible",
+          "Linux",
+          "PostgreSQL",
+          "AWS",
+          "Python"
+        ]
+      },
+      {
+        "company": "Hack Reactor",
+        "title": "Software Developer",
+        "years": "2020-2021",
+        "icon": "fas fa-laptop",
+        "mainTech": [
+        ],
+        "technologies": [
+          "HTML",
+          "CSS",
+          "CI/CD",
+          "UI Libraries"
         ]
       }
     ]
