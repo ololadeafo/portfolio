@@ -9,9 +9,9 @@
           "class": "fab fa-linkedin"
         },
         {
-          "name": "github",
+          "name": "gitlab",
           "url": "https://github.com/ololadeafo",
-          "class": "fa-brands fa-github"
+          "class": "fab-fa fa-gitlab"
         },
         {
           "name": "email",
