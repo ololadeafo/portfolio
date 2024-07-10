@@ -9,9 +9,9 @@
           "class": "fab fa-linkedin"
         },
         {
-          "name": "gitlab",
-          "url": "https://gitlab.com/lola.afolabi0503",
-          "class": "fab fa-gitlab"
+          "name": "github",
+          "url": "https://github.com/ololadeafo",
+          "class": "fa-brands fa-githab"
         },
         {
           "name": "email",
@@ -63,11 +63,11 @@
         {
           "name": "Bootstrap",
           "class": "devicon-bootstrap-plain colored"
-        }
+        },
         {
           "name": "ReactRouter",
           "class": "devicon-reactrouter-plain colored"
-        },
+        }
       ],
       "back_end": [
         {

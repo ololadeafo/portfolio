@@ -55,7 +55,7 @@ class About extends Component {
                   </div>
                 </div>
                 <div className="text-center mt-5">
-                  <a href={require("../resume/Ololade_Afolabi_Resume.pdf")} download>
+                  <a href={require("../resume/ololade_Afolabi.Resume.pdf")} download>
                     <button className="resume-button">Download Resume</button>
                   </a>
                 </div>
